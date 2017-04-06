@@ -39,9 +39,11 @@
 .left-block__entry-btn{
     @extend .header__nav_link;
 }
-.left-block__advert-btn:hover,
+.left-block__advert-btn:hover{
+    border-bottom: 2px solid #44B574;
+}
 .left-block__entry-btn:hover{
-    border-bottom:2px solid #44B574;
+    border-bottom: none;
 }
 .fa-plus-circle{
     font-size: 18px;
