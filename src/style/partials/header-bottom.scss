@@ -1,0 +1,22 @@
+.header-bottom{
+    padding-top: 53px;
+}
+.header-bottom__main-text{
+    font-family: $main-font;
+    font-size: 32px;
+    color: $text-color_white;
+    margin-bottom: 45px;
+}
+.dropdow-form__text{
+    display: block;
+    font-family: $main-font;
+    font-size: 14px;
+    color: $text-color_white;
+}
+.dropdow-form__list{
+    border: 2px solid #DFE3E6;
+    border-radius: 2px;
+    width: 38%;
+    margin-top: 12px;
+    padding: 12px 0px 8px 11px;
+}

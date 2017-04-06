@@ -1,4 +1,4 @@
-.header{
+.header-top{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,12 +18,12 @@
 }
 .header__nav_link{
     font-family: $main-font;
-    color: #fff;
+    color: $text-color_white;
     font-size: 14px;
     text-decoration: none;
 }
 .header__nav_link:hover{
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid $text-color_white;
     padding-bottom: 9px;
 }
 .fa-circle{
