@@ -1,0 +1,37 @@
+.telegram-block{
+    margin-top: 1282px;
+}
+.telegram-top{
+    text-align: center;
+}
+.telegram-top__title{
+    font-family: $main-font;
+    font-size: 24px;
+    color: #152935;
+}
+.telegram-top__text{
+    font-family: $main-font;
+    color: #152935;
+    font-size: 14px;
+    width: 60%;
+    margin-top: 25px;
+    margin-left: 21%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.telegram-top__button{
+    font-family: $main-font;
+    color: #152935;
+    font-size: 14px;
+    text-decoration: none;
+}
+.telegram-top__button_right{
+    margin-right: 35px;
+}
+.telegram-top__button:hover{
+    border-bottom: 2px solid #30AE63;
+    padding-bottom: 6px;
+}
+.telegram-main{
+    margin-top: 49px;
+}
