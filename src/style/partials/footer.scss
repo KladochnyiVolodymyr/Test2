@@ -7,8 +7,8 @@
 .footer__content{
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    margin-right: 41px;
+    width: 19%;
+    margin-right: 47px;
 }
 .footer__content_item{
     margin-bottom: 21px;
@@ -37,4 +37,10 @@
     text-decoration: none;
     font-size: 14px;
     background-color: #30AE63;
+    padding: 12px 35px 12px 27px;
+    border-radius: 2px;
+}
+.footer-logo{
+    text-align: center;
+    margin-top: 42px;
 }
