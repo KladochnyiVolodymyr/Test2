@@ -204,8 +204,8 @@ ul {
 .best-price-options{
 	text-align: center;
 	color:$default-text-color;
-	font-size: $small-line-height;
-	line-height: 24px;
+	font-size: $small-font-size+2;
+	line-height: $small-line-height+8;
 	margin-top: 25px;
 	margin-bottom: 15px;
 	padding:10px 0;
