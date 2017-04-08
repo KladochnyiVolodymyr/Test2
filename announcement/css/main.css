@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Regular.ttf); }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f5f5f5;
+  font-family: OpenSans, Thoma, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.announcement {
+  font-family: OpenSans;
+  width: 890px;
+  height: 384px;
+  background: #fff; }
+
+.latest-announcement {
+  width: 844px;
+  height: 304px;
+  padding-top: 10px; }
+
+.latest-announcement_header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #152935; }
+
+.latest-announcement_type {
+  margin-bottom: 20px;
+  text-align: center; }
+
+.latest-announcement_type label > input {
+  visibility: hidden;
+  position: absolute; }
+
+.latest-announcement_type label > input + span {
+  cursor: pointer;
+  font-size: 14px;
+  border: 2px solid transparent;
+  line-height: 24px;
+  display: inline;
+  margin-right: 16px;
+  padding-bottom: 8px; }
+
+label > input:checked + span {
+  border-bottom: 2px solid #30AE63; }
+
+.latest-announcement_items {
+  display: inline-flex;
+  margin: 0 15px; }
+
+.latest-announcement_items_item {
+  display: block;
+  margin-right: 15px;
+  width: 202px;
+  height: 248px; }
+
+.latest-announcement_items_item:last-child {
+  margin-right: none; }
+
+.latest-announcement_items_item_link {
+  display: inline-block;
+  width: 202px;
+  height: 248px; }
+
+.latest-announcement_items_item_desc {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start; }
+
+.latest-announcement_items_item_desc_price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #152935; }
+
+.latest-announcement_items_item_desc_price .fa-check-circle {
+  margin-left: 20px;
+  color: #30AE63; }
+
+.latest-announcement_items_item_desc_size {
+  color: #8C9BA5;
+  font-size: 12px;
+  line-height: 16px; }
+
+.latest-announcement_items_item_location {
+  font-size: 12px;
+  line-height: 16px;
+  color: #152935; }
+
+.latest-announcement_items_item_location_bull_metro1 {
+  color: #E71D32;
+  font-size: 30px;
+  margin-right: 10px;
+  top: 7px;
+  position: relative; }
+
+.latest-announcement_items_item_location_bull_metro2 {
+  color: #2573D8;
+  font-size: 30px;
+  margin-right: 10px;
+  top: 7px;
+  position: relative; }
+
+.fresh-announcement {
+  text-align: center;
+  color: #152935;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  padding: 5px 0;
+  border-top: 1px solid #D8D8D8; }
+
+/*# sourceMappingURL=main.css.map */
