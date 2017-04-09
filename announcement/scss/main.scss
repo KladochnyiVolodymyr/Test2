@@ -1,11 +1,11 @@
+$small-font-size:12px;
+$small-line-height:16px;
 $red-metro-line:#E71D32;
 $blue-metro-line:#2573D8;
 $default-text-color:#152935;
 $check-ok-color:#30AE63;
 $description-color:#8C9BA5;
 $border-price-color:#D8D8D8;
-$small-font-size:12px;
-$small-line-height:16px;
 $main-color:#30AE63;
 $default-bg:#fff;
 
@@ -136,15 +136,16 @@ label > input:checked + span {
 }
 .fresh-announcement{
 	text-align: center;
-	color:$default-text-color;
-	font-size: $small-font-size+4;
-	line-height: $small-line-height*2;
 	margin-top: 30px;
 	margin-bottom: 5px;
 	padding:5px 0;
 	border-top: 1px solid $border-price-color;
 }
-
+.fresh-announcement_link{
+	color:$default-text-color;
+	font-size: $small-font-size+4;
+	line-height: $small-line-height*2;
+}
 
 
 

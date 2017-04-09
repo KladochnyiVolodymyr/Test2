@@ -115,12 +115,14 @@ label > input:checked + span {
 
 .fresh-announcement {
   text-align: center;
-  color: #152935;
-  font-size: 16px;
-  line-height: 32px;
   margin-top: 30px;
   margin-bottom: 5px;
   padding: 5px 0;
   border-top: 1px solid #D8D8D8; }
+
+.fresh-announcement_link {
+  color: #152935;
+  font-size: 16px;
+  line-height: 32px; }
 
 /*# sourceMappingURL=main.css.map */

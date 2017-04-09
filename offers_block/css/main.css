@@ -173,12 +173,14 @@ ul {
 
 .best-price-options {
   text-align: center;
-  color: #152935;
-  font-size: 14px;
-  line-height: 24px;
   margin-top: 25px;
   margin-bottom: 15px;
   padding: 10px 0;
   border-top: 1px solid #D8D8D8; }
+
+.best-price-options_link {
+  color: #152935;
+  font-size: 14px;
+  line-height: 24px; }
 
 /*# sourceMappingURL=main.css.map */

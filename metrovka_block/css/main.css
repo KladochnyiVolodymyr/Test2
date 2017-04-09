@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Regular.ttf); }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: OpenSans, Thoma, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.metrovka {
+  font-family: OpenSans;
+  width: 890px;
+  height: 518px;
+  background: #fff;
+  margin: 20px 120px 0 120px; }
+
+.metrovka-blog {
+  height: 418px;
+  padding-top: 10px; }
+
+.metrovka-blog_header {
+  text-align: center;
+  margin: 15px auto;
+  width: 476px;
+  height: 92px; }
+
+.metrovka-blog_header_title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #152935; }
+
+.metrovka-blog_header_description-text {
+  font-size: 14px;
+  line-height: 20px; }
+
+.metrovka-blog_items {
+  display: inline-flex;
+  margin: 0 20px; }
+
+.metrovka-blog_items_item {
+  display: block;
+  margin-right: 15px;
+  width: 272px;
+  height: 182px; }
+
+.metrovka-blog_items_item:last-child {
+  margin-right: none; }
+
+.metrovka-blog_items_item_img {
+  width: 272px; }
+
+.metrovka-blog_items_item_link {
+  display: inline-block;
+  width: 272px;
+  height: 248px; }
+
+.metrovka-blog_items_item_desc {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start; }
+
+.metrovka-blog_items_item_desc_lifehack {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 16px;
+  color: #BA8FF7; }
+
+.metrovka-blog_items_item_desc_advice {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 16px;
+  color: #30AE63; }
+
+.metrovka-blog_items_item_desc_tecknology {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 16px;
+  color: #2573D8; }
+
+.metrovka-blog_items_item_desc_endry-name {
+  margin-top: 10px;
+  color: #152935;
+  font-size: 16px;
+  line-height: 24px; }
+
+.metrovka-blog_items_item_author {
+  display: block;
+  margin-top: 45px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8C9BA5; }
+
+.go-to-blog-page {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  border-top: 1px solid #D8D8D8; }
+
+.go-to-blog-page_link {
+  color: #152935;
+  font-size: 16px;
+  line-height: 24px; }
+
+/*# sourceMappingURL=main.css.map */
