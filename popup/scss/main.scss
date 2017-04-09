@@ -1,0 +1,194 @@
+$small-font-size:12px;
+$small-line-height:16px;
+$active-color:#30AE63;
+$main-color:#152935;
+$window_info-bg:#F5F7FA;
+$default-bg:#fff;
+$form-panel_close-color:#8C9BA5;
+$rooms_check-border:#DFE3E6;
+$personal-inf-color:#5A6872;
+
+a {
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {
+	font-family: OpenSans;
+}
+
+.footer__content_btn {
+	color: #fff;
+	font-size: $small-font-size+2;
+	background-color: $active-color;
+	padding: 12px 35px 12px 27px;
+	border-radius: 2px;
+}
+
+.modal-overlay {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-overlay_window {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	width: 800px;
+	height: 484px;
+	background-color: $default-bg;
+}
+
+.modal-overlay_window_info {
+	width: 400px;
+	background: $window_info-bg;
+}
+
+.modal-overlay_window_info_panel {
+	width: 320px;
+	height: 148px;
+	margin: 30px;
+}
+
+.modal-overlay_window_info_panel_header {
+	font-size: $small-font-size*2;
+	line-height: $small-line-height*2;
+	color: $main-color;
+}
+
+.modal-overlay_window_info_panel_text {
+	margin-top: 30px;
+	font-size: $small-font-size+2;
+	line-height: $small-line-height+4;
+	color: $main-color;
+}
+
+.modal-overlay_window_form-panel {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.modal-overlay_window_form-panel_close {
+	color: $form-panel_close-color;
+	align-self: flex-end;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+.modal-overlay_window_form-panel_content {
+	width: 320px;
+	height: 385px;
+	margin: 10px 30px 30px 30px;
+}
+
+.modal-overlay_window_form-panel_content_type {
+	margin-bottom: 20px;
+}
+
+.modal-overlay_window_form-panel_content_type label>input {
+	visibility: hidden;
+	position: absolute;
+}
+
+.modal-overlay_window_form-panel_content_type label > input + span {
+	cursor: pointer;
+	font-size: $small-font-size+2;
+	border: 2px solid transparent;
+	display: inline;
+	margin-right: 16px;
+	padding-bottom: 10px;
+}
+
+label > input:checked + span {
+	border-bottom: 2px solid $active-color;
+}
+
+.modal-overlay_window_form-panel_content_station {
+	width: 320px;
+	height: 40px;
+	color: $main-color;
+	font-size: $small-font-size+2;
+	line-height: $small-line-height+2;
+}
+
+.modal-overlay_window_form-panel_content_rooms {
+	width: 300px;
+	height: 66px;
+	color: $main-color;
+	font-size: $small-font-size+2;
+	line-height: $small-line-height+1;
+	margin-bottom: 40px;
+}
+
+.modal-overlay_window_form-panel_content_rooms_check {
+	height: 40px;
+}
+
+.modal-overlay_window_form-panel_content_rooms_check input {
+	display: none;
+	position: absolute;
+}
+
+.modal-overlay_window_form-panel_content_rooms_check span {
+	cursor: pointer;
+	user-select: none;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	padding: 10px;
+	border: 1px solid $rooms_check-border;
+	border-radius: 100%;
+	text-align: center;
+	background-color: $default-bg;
+	color: $main-color;
+}
+
+.modal-overlay_window_form-panel_content_rooms_check input:checked + span {
+	background-color: $active-color;
+	color: $default-bg;
+}
+
+.modal-overlay_window_form-panel_content_personal-inf {
+	width: 320px;
+	font-size: $small-font-size;
+	line-height: $small-line-height;
+}
+
+.modal-overlay_window_form-panel_content_personal-inf_name {
+	height: 40px;
+	width: 320px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	color: $personal-inf-color;
+}
+
+.modal-overlay_window_form-panel_content_personal-inf_email {
+	height: 40px;
+	width: 320px;
+	margin-bottom: 40px;
+	padding-left: 10px;
+	color: $personal-inf-color;
+}
+
+.modal-overlay_window_form-panel_content_form-submit_btn {
+	color: #fff;
+	font-size: $small-font-size+2;
+	line-height: $small-line-height+2;
+	background-color: $active-color;
+	width: 320px;
+	height: 40px;
+	border-radius: 2px;
+}

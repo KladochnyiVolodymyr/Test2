@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Task</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="modal-overlay" id="modal-overlay" onclick="close_window(event)">
+		<div class="modal-overlay_window">
+			<div class="modal-overlay_window_info">
+				<div class="modal-overlay_window_info_panel">
+					<h1 class="modal-overlay_window_info_panel_header">
+                   		Оставить заявку
+                   	</h1>
+					<p class="modal-overlay_window_info_panel_text">
+						Нет времени искать по сайту?
+						<br> Заполняй критерии поиска и получай акутальные объявления как только они появляются на Metrovka.
+					</p>
+				</div>
+			</div>
+			<div class="modal-overlay_window_form-panel">
+				<a href="#" id="modal-close" onclick="close_window(event)" class="modal-overlay_window_form-panel_close">x</a>
+				<div class="modal-overlay_window_form-panel_content">
+					<div class="modal-overlay_window_form-panel_content_type">
+						<label>
+							<input type="radio" class="modal-overlay_window_form-panel_content_type_item" value="area" checked><span>Район</span></label>
+						<label>
+							<input type="radio" class="modal-overlay_window_form-panel_content_type_item" value="metro"><span>Метро</span></label>
+					</div>
+					<select class="modal-overlay_window_form-panel_content_station">
+						<option value="Голосеевский">Голосеевский</option>
+					</select>
+					<div class="modal-overlay_window_form-panel_content_rooms">
+						<p class="modal-overlay_window_form-panel_content_rooms_title">Кол-во комнат</p>
+						<label class="modal-overlay_window_form-panel_content_rooms_check">
+							<input type="checkbox" name="rooms" value="1" checked>
+							<span>1</span>
+						</label>
+						<label class="modal-overlay_window_form-panel_content_rooms_check">
+							<input type="checkbox" name="rooms" value="2" checked>
+							<span>2</span>
+						</label>
+						<label class="modal-overlay_window_form-panel_content_rooms_check">
+							<input type="checkbox" name="rooms" value="3">
+							<span>3</span>
+						</label>
+						<label class="modal-overlay_window_form-panel_content_rooms_check">
+							<input type="checkbox" name="rooms" value="4">
+							<span>4</span>
+						</label>
+						<label class="modal-overlay_window_form-panel_content_rooms_check">
+							<input type="checkbox" name="rooms" value="5+">
+							<span>5+</span>
+						</label>
+					</div>
+					<div class="modal-overlay_window_form-panel_content_personal-inf">
+						<input type="text" value="Как вас зовут?" class="modal-overlay_window_form-panel_content_personal-inf_name">
+						<input type="email" value="Email" class="modal-overlay_window_form-panel_content_personal-inf_email">
+					</div>
+					<div class="modal-overlay_window_form-panel_content_form-submit">
+						<input type="submit" value="Оставить заявку" class="modal-overlay_window_form-panel_content_form-submit_btn">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#" onclick="open_window()" class="footer__content_btn">Оставить заявку</a>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
