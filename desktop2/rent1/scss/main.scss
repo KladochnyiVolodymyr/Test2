@@ -1,0 +1,248 @@
+$small-font-size:12px;
+$small-line-height:16px;
+$default-bg:#fff;
+$address_details-color:#2C74C7;
+$address_metro-color:#000000;
+$metro3-color:#30AD64;
+$additional-color:#B1B1B1;
+$button-bg:#fff;
+$next_link-color:#979797;
+$prise_uah-color:#4a4a4a;
+$metro-distance-color: #9B9B9B;
+$features_summary-color: #4A4A4A;
+$prise_warning-color:#FFEFEA;
+$nav-dot-color:#D8D8D8;
+@font-face {
+	font-family: "OpenSans";
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: OpenSans, Thoma, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.rent {
+	font-family: OpenSans;
+	width: 890px;
+	height: 258px;
+	background: $default-bg;
+	margin: 20px 120px 0 120px;
+}
+
+.rent_item {
+	display: flex;
+	margin: 0 15px;
+}
+
+.rent_item_desc {
+	display: inline-flex;
+	margin-right: 135px;
+}
+
+.rent_item_desc_img {
+	align-self: flex-start;
+}
+
+.rent_item_desc_info {
+	margin-left: 15px;
+	width: 320px;
+}
+
+.rent_item_desc_info_address {}
+
+.rent_item_desc_info_address_details {
+	color: $address_details-color;
+	font-size: 16px;
+}
+
+.rent_item_desc_info_address_text {
+	margin: 0;
+	padding: 0;
+}
+
+.rent_item_desc_info_address_metro {
+	color: $address_metro-color;
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+.rent_item_desc_info_address_metro3 {
+	color: $metro3-color;
+	font-size: 30px;
+	position: relative;
+	line-height: 12px;
+	top: 7px;
+	margin-right: 5px;
+}
+
+.rent_item_desc_info_address_metro-distance {
+	color: $metro-distance-color;
+	font-size: 12px;
+}
+
+.rent_item_desc_info_features {
+	margin-top: 30px;
+	width: 320px;
+}
+
+.rent_item_desc_info_features_title {
+	color: rgba(0, 0, 0, 0.6);
+	display: block;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.rent_item_desc_info_features_summary {
+	margin-bottom: 10px;
+	color: $features_summary-color;
+	font-size: 12px;
+	display: block;
+}
+
+.rent_item_desc_info_features_text {
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.rent_item_prise {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.rent_item_prise_uah {
+	color: $prise_uah-color;
+	font-size: 18px;
+}
+
+.rent_item_prise_currency {
+	color: $additional-color;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.rent_item_prise_currency_usd {
+	margin-right: 10px;
+}
+
+.rent_item_prise_currency_rate {
+	display: inline-block;
+	padding-bottom: 1px;
+	border-bottom: 1px solid $additional-color;
+}
+
+.rent_item_prise_currency_rate_link {
+	color: $additional-color;
+}
+
+.rent_item_prise_warning {
+	display: inline-flex;
+	width: 132px;
+	height: 20px;
+	background: $prise_warning-color;
+	padding: 8px;
+}
+
+.rent_item_prise_warning_text {
+	color: rgba(208, 2, 2, 0.3);
+	margin-right: 35px;
+	font-size: 12px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.rent_item_prise_warning_icon {
+	color: $next_link-color;
+}
+
+.rent_item_prise_contact {
+	margin-top: 20px;
+	width: 148px;
+	height: 32px;
+}
+
+.rent_item_prise_contact_call {
+	width: 70px;
+	height: 32px;
+	border: 2px solid rgba(48, 174, 99, .4);
+	background: $button-bg;
+}
+
+.rent_item_prise_contact_message {
+	width: 70px;
+	height: 32px;
+	border: 2px solid rgba(37, 115, 216, .4);
+	background: $button-bg;
+}
+
+.rent_item_next {
+	text-align: left;
+	margin: 2px 15px 0 0;
+	width: 112px;
+	float: right;
+}
+
+.rent_item_next:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.rent_item_next_link {
+	color: $next_link-color;
+	font-size: 12px;
+	line-height: 20px;
+	display: block;
+}
+
+.rent_item_next_title {
+	display: block;
+	color: rgba(0, 0, 0, .6);
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.rent_item_desc_info_slider {}
+
+.rent_item_desc_info_slider_container_nav-dots {
+	width: 100%;
+	height: 9px;
+	display: block;
+	text-align: center;
+}
+
+.nav-dot {
+	width: 7px;
+	height: 7px;
+	margin: 0 1px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: $nav-dot-color;
+}
+
+.nav-dot-current {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
