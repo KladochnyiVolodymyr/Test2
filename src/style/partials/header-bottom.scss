@@ -1,0 +1,34 @@
+.header-bottom{
+    padding-top: 53px;
+}
+.header-bottom__main-text{
+    font-family: $main-font;
+    font-size: 32px;
+    color: $text-color_white;
+    margin-bottom: 45px;
+}
+.dropdow-form{
+    display: inline-block;
+    width: 39%;
+}
+.dropdow-form__text{
+    display: block;
+    font-family: $main-font;
+    font-size: 14px;
+    color: $text-color_white;
+}
+.dropdow-form__list{
+    border: 2px solid #DFE3E6;
+    border-radius: 2px;
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px 0px 8px 11px;
+}
+.header-bottom__content_button{
+    display: inline-block;
+    font-family: $main-font;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #30AE63;
+}
